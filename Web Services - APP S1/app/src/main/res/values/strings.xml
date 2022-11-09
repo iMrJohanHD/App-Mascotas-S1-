@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Curso3_Semana3</string>
+    <string name="cdBoneImage1">Image Bone Button</string>
+    <string name="cdBoneImage2">Image Bone Yellow Button</string>
+    <string name="namePet">Turtle</string>
+    <string name="contentPerfilImage">Perfil Pet Image</string>
+    <string name="titleBio">BIO</string>
+    <string name="bioName">Nombre: Tavi Danner Manrique Nestarez</string>
+    <string name="bioEmail">Correo: tavidanner96@gmail.com</string>
+    <string name="bioContentPhoto">Perfil Bio Photo</string>
+    <string name="contentImagePet">Image Pet</string>
+    <string name="contentImageBone">Image Bone</string>
+    <string name="contentImageBoneYellow">Image Bone Yellow</string>
+</resources>

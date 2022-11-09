@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="330dp"
+    app:layout_constraintTop_toTopOf="parent"
+    android:layout_marginBottom="40dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="330dp"
+            app:cardCornerRadius="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/cvImagePet"
+                        android:layout_width="300dp"
+                        android:layout_height="300dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/turtle"
+                        android:contentDescription="@string/contentImagePet" />
+
+                    <ImageView
+                        android:id="@+id/cvImageBone"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="300dp"
+                        app:layout_constraintStart_toStartOf="@+id/cvImagePet"
+                        app:layout_constraintTop_toTopOf="@+id/cvImagePet"
+                        app:srcCompat="@drawable/bone"
+                        android:contentDescription="contentImageBone" />
+
+                    <TextView
+                        android:id="@+id/cvTextName"
+                        android:layout_width="210dp"
+                        android:layout_height="30dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/namePet"
+                        android:textSize="18sp"
+                        app:layout_constraintStart_toEndOf="@+id/cvImageBone"
+                        app:layout_constraintTop_toBottomOf="@+id/cvImagePet" />
+
+                    <ImageView
+                        android:id="@+id/cvImageBoneYellow"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="300dp"
+                        app:layout_constraintStart_toEndOf="@+id/cvFavorito"
+                        app:layout_constraintTop_toTopOf="@+id/cvImagePet"
+                        app:srcCompat="@drawable/bone_yellow"
+                        android:contentDescription="contentImageBoneYellow" />
+
+                    <TextView
+                        android:id="@+id/cvFavorito"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="300dp"
+                        android:gravity="center"
+                        android:text="0"
+                        app:layout_constraintStart_toEndOf="@+id/cvTextName"
+                        app:layout_constraintTop_toTopOf="@+id/cvImagePet" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

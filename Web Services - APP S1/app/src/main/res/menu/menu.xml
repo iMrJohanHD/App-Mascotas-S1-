@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/Opcion1"
+        android:title="Contacto" />
+    <item
+        android:id="@+id/Opcion2"
+        android:title="Acerca De" />
+    <item
+        android:id="@+id/Opcion3"
+        android:title="Cuenta" />
+    <item
+        android:id="@+id/Star"
+        android:title="Star"
+        android:icon="@drawable/icon_star"
+        app:showAsAction="always"/>
+</menu>

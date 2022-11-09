@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvsMascota"
+    android:layout_width="80dp"
+    android:layout_height="100dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginBottom="20dp"
+    app:cardCornerRadius="4dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/cvsImagePet"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/turtle"
+            android:contentDescription="@string/contentImagePet">
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/cvsFavorito"
+                android:layout_width="40dp"
+                android:layout_height="20dp"
+                android:textAlignment="center"
+                android:text="5">
+
+            </TextView>
+            <ImageView
+                android:id="@+id/cvsImageBoneYellow"
+                android:layout_width="40dp"
+                android:layout_height="20dp"
+                android:src="@drawable/bone_yellow"
+                android:contentDescription="@string/cdBoneImage1" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

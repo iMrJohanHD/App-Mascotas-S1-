@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvMascotaCircular"
+    android:layout_width="120dp"
+    android:layout_height="120dp"
+    android:layout_marginStart="145dp"
+    app:cardCornerRadius="60dp"
+    android:layout_centerHorizontal="true"
+    android:innerRadius="3dp"
+    android:shape="ring"
+    android:thicknessRatio="3.0"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp">
+    <ImageView
+        android:id="@+id/imgPerfil"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/turtle"
+        android:contentDescription="@string/contentPerfilImage" />
+</androidx.cardview.widget.CardView>
